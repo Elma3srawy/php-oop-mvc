@@ -1,0 +1,25 @@
+{
+    "name": "elma3srawy/framework",
+    "description": "A simple yet powerful MVC framework aimed at providing a clean architecture for developing web applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/Illuminate/Support/Collections/helpers.php",
+            "src/Application/helpers.php",
+            "src/Illuminate/Views/helpers.php",
+            "src/Illuminate/Support/Session/helpers.php"
+        ],
+        "psr-4": {
+            "Illuminate\\": "src/Illuminate/",
+            "Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "elma3srawy"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
