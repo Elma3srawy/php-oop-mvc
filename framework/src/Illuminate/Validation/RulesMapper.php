@@ -16,7 +16,6 @@ trait RulesMapper
         'max' => MaxRule::class,
         'email' => EmailRule::class,
         'confirmed' => ConfirmedRule::class,
-        // 'unique' => UniqueRule::class,
     ];
 
     public static function resolve(string $rule, $options)
